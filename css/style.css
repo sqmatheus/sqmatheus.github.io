@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+* {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+  
+#brand {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 1.75rem;
+    letter-spacing: 0.1em;
+}
+
+#img-emoji {
+    width: 100%;
+    max-width: 400px;
+}
+
+#mainText p {
+    font-size: 1.2rem;
+}
+
+#mainText h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.footer {
+    font-size: 1.1rem;
+}
+
+@media (max-width: 767px) {
+    #mainText {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) { 
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    #text {
+        order: 1;
+    }
+    
+    #imgEmj {
+        order: 2;
+    }
+}
