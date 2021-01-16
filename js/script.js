@@ -9,7 +9,7 @@ function calc() {
 
     let div = document.createElement("div");
     div.id = "result";
-    div.className = "text-center m-3 bg-dark text-white rounded p-3";
+    div.className = "text-center m-3 bg-danger text-white rounded p-3";
 
     let insert = (text) => {
         let p = document.createElement("p");
