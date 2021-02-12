@@ -1,111 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 
 * {
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
+    color: white;
 }
 
-.navbar {
-    background-color: rgba(220,53,69, 0.9) !important;
+html, body {
+    background: url(../bg.jpg) center right no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
 }
 
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
+.opacity {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
 }
 
-.nav-link {
+.list-nav {
+    flex-direction: row !important;
+}
+
+.list-nav li {
+    margin: 0px 0.6rem;
+}
+
+.list-nav li a {
+    font-size: 2rem;
+    color: rgb(230, 230, 230) !important;
+}
+
+.list-nav li a:hover {
+    font-size: 2rem;
     color: white !important;
-    font-family: 'Odibee Sans', cursive;
-    font-size: 1.3rem;
-    letter-spacing: 0.1em;
 }
 
 .brand {
-    text-transform: uppercase;
-    color: #fff !important;
-    font-family: 'Odibee Sans', cursive;
-    font-size: 1.75rem;
-    letter-spacing: 0.1em;
+    font-size: 1.5rem;
+    letter-spacing: -0.15rem;
+    background: white;
+    color: #212529 !important;
+    padding: 0.1rem 1.5rem;
+    border-radius: 0.6rem;
 }
 
-#img-emoji {
-    width: 100%;
-    max-width: 400px;
+.card {
+    border: none !important;
+    max-width: 13rem;
 }
 
-#mainText p {
-    font-size: 1.2rem;
+.card-header {
+    background-color: orangered;
 }
 
-.icon {
-    font-size: 1.35rem;
-}
-
-#mainText h2 {
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.mainFooter, .footer {
-    font-size: 1.1rem;
-}
-
-.boxContent {
-    width: 66.6%;
-}
-
-.boxTop {
-    border-top-left-radius: .25rem;
-    border-top-right-radius: .25rem;
-}
-
-.boxTop h2 {
-    font-family: 'Odibee Sans', cursive;
-    font-size: 2.5rem;
-}
-
-.boxBottom {
-    border-bottom-left-radius: .25rem;
-    border-bottom-right-radius: .25rem;
-}
-
-@media (max-width: 575.98px) { 
-    .boxContent {
-        width: 90% !important;
-    }
-}
-
-@media (max-width: 767px) {
-    #mainText {
-        text-align: center;
-    }
-
-    .mainFooter, .footer {
-        font-size: 0.95rem;
-    }
-}
-
-@media (max-width: 991.98px) { 
-    .boxContent {
-        width: 100%;
-    }
-}
-
-@media (min-width: 768px) { 
-    .mainFooter {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-    }
-
-    #text {
-        order: 1;
-    }
-
-    #imgEmj {
-        order: 2;
-    }
+.card p {
+    color:#212529 !important;
 }
