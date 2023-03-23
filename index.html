@@ -1,65 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matheus (Husk)</title>
+    <title>Matheus - Portifólio</title>
 
-    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <div class="opacity">
-
-        <nav class="navbar navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand brand" href="#">Eu sou o Matheus</a>
-                <ul class="navbar-nav list-nav">
-                    <li class="nav-item">
-                        <a class="nav-link fab fa-github" href="https://github.com/sqmatheus"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fab fa-twitter" href="https://twitter.com/huskzaum"></a>
-                    </li>
+    <header>
+        <div class="advertise text-center">
+            <p>atualmente à procura de emprego! <a href="#contato" class="underline bold">contate-me</a></p>
+        </div>
+        <div class="navbar container">
+            <a href="#"><img src="assets/logo.svg" alt="Matheus Logo"></a>
+            <nav class="nav-header">
+                <ul>
+                    <a href="#formacao">
+                        <li>Formação</li>
+                    </a>
+                    <a href="#projetos">
+                        <li>Projetos</li>
+                    </a>
+                    <a href="#contato">
+                        <li>Contato</li>
+                    </a>
                 </ul>
-            </div>
-        </nav>
+            </nav>
+        </div>
+    </header>
 
-        <section class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="d-flex flex-column m-3 text-center align-items-center">
-                        <h2 class="display-3">Sobre</h2>
-                        <p class="lead">
-                            Meu nome é Matheus, tenho 17 anos de idade. Atualmente estou estudando mais sobre desenvolvimento web, focando em back-end. Tenho conhecimento em PHP, Java e C#.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="d-flex flex-column m-3 text-center">
-                        <h2 class="display-3">Projetos</h2>
-                        <div class="d-flex justify-content-center">
-                            <div class="card m-2">
-                                <h5 class="card-header bg-danger">Solving Problems</h5>
-                                <div class="card-body">
-                                  <p class="card-text">Ferramentas para resolver exercícios de matemática.</p>
-                                  <a href="./solving/index.html" class="btn btn-danger">Clique para ver</a>
-                                </div>
-                              </div>
-                        </div>
-                    </div>
+    <main class="container bg-gray">
+        <div class="avatar">
+            <img src="assets/avatar.svg" alt="Matheus Avatar">
+        </div>
+        <div class="description">
+            <h2 class="light-b fw-500">Desenvolvedor Full-Stack</h2>
+            <h1 class="light-b">Matheus Sales Quirino</h1>
+            <h3 class="light-gray fw-400">Amante da programação, ouvinte de reggae e em busca da primeira
+                oportunidade
+                de emprego!
+            </h3>
+        </div>
+    </main>
+
+    <section id="formacao" class="container formacao">
+        <h2 class="formacao-title fw-500 text-center">Formação</h2>
+        <section>
+            <h3 class="section-title fw-500 text-center">Graduação</h3>
+            <div class="grid">
+                <div class="card">
+                    <h4 class="bold">Análise e Desenvolvimento de Sistemas</h4>
+                    <h5 class="fw-400">FATEC - São Caetano do Sul</h5>
+                    <h6 class="fw-400">Tecnólogo</h6>
+                    <h6 class="fw-400 yellow">jul 2021 - jun 2024</h6>
                 </div>
             </div>
-    </div>
+        </section>
+        <section>
+            <h3 class="section-title fw-500 text-center">Cursos</h3>
+            <div class="grid">
+                <div class="card">
+                    <h4 class="bold">C# / .NET</h4>
+                    <h5 class="fw-400">Udemy - Nelio Alves</h5>
+                    <h6 class="fw-400 yellow">Neste curso foi ensinado práticas de orientação a objetos, LINQ e ASP.NET
+                    </h6>
+                </div>
+                <div class="card">
+                    <h4 class="bold">UI Design</h4>
+                    <h5 class="fw-400">Origamid</h5>
+                    <h6 class="fw-400 yellow">Neste curso foi utilizado a ferramenta do Figma para ensinar a fazer um
+                        protótipo de um
+                        site, e como escolher as tipografias, cores, luz, sombra, imagens; visando a experiência do
+                        usuário.</h6>
+                </div>
+                <div class="card">
+                    <h4 class="bold">HTML e CSS</h4>
+                    <h5 class="fw-400">Origamid</h5>
+                    <h6 class="fw-400 yellow">Neste curso foi ensinado como utilizar as tags do HTML visando os leitores
+                        de
+                        tela para
+                        maior acessibilidade, e o CSS para colocar em prática o design prototipado.</h6>
+                </div>
+                <div class="card">
+                    <h4 class="bold">CSS Flexbox</h4>
+                    <h5 class="fw-400">Origamid</h5>
+                    <h6 class="fw-400 yellow">Neste curso foi ensinado tudo sobre o Flexbox, destacando quando usar e
+                        quais
+                        são as
+                        melhores práticas lidando com esse tipo de display.</h6>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h3 class="section-title fw-500 text-center">Idiomas</h3>
+            <div class="grid idioma">
+                <div class="card">
+                    <div>
+                        <h4 class="bold">Português</h4>
+                        <h5 class="fw-400">Nativo</h5>
+                    </div>
+                    <h6>🇧🇷</h6>
+                </div>
+                <div class="card">
+                    <div>
+                        <h4 class="bold">Inglês</h4>
+                        <h5 class="fw-400">Intermediário/Técnico</h5>
+                    </div>
+                    <h6>🇺🇸</h6>
+                </div>
+            </div>
+        </section>
     </section>
 
-    </div>
-
-    <script src="bootstrap/bootstrap.bundle.min.js"></script>
-    <script src="fwe/fontwe.js"></script>
+    <section id="projetos" class="container projetos bg-gray">
+        <h2 class="projetos-title fw-500 text-center">Projetos</h2>
+        <div class="proj-container">
+            <div class="proj-card">
+                <div>
+                    <h3>Draw</h3>
+                    <p>Site simples para desenhar usando formas, tamanho e cores escolhidas pelo usúario.</p>
+                </div>
+                <div>
+                    <div class="stacks">
+                        <h4>React</h4>
+                        <h4>TypeScript</h4>
+                    </div>
+                    <a href="https://github.com/sqmatheus/draw-react-ts" target="_blank"
+                        class="proj-link">Repositório</a>
+                    <a href="https://draw-react-ts.vercel.app/" target="_blank" class="proj-link">Projeto</a>
+                </div>
+            </div>
+            <div class="proj-card">
+                <div>
+                    <h3>SJP</h3>
+                    <p>Biblioteca para transformar um conteúdo JSON em objetos que podem ser manipulados em uma
+                        aplicação.</p>
+                </div>
+                <div>
+                    <div class="stacks">
+                        <h4>Rust</h4>
+                    </div>
+                    <a href="https://github.com/sqmatheus/sjp-rs" target="_blank" class="proj-link">Repositório</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contato">
+        <section class="container contato">
+            <h2 class="contato-title fw-500">Contato</h2>
+            <nav>
+                <ul>
+                    <a href="mailto:mathsales146@gmail.com" target="_blank">
+                        <li>
+                            <img src="assets/mail.svg" alt="E-mail Logo">
+                            <h3>mathsales146@gmail.com</h3>
+                        </li>
+                    </a>
+                    <a href="https://www.linkedin.com/in/matheus-sales-q/" target="_blank">
+                        <li>
+                            <img src="assets/linkedin.svg" alt="Linkedin Logo">
+                            <h3>matheus-sales-q</h3>
+                        </li>
+                    </a>
+                </ul>
+            </nav>
+        </section>
+        <section class="credits">
+            <a href="https://github.com/sqmatheus" target="_blank">
+                <img src="./assets/github.svg" alt="Logo Github">
+                <h3 class="fw-500">sqmatheus</h3>
+            </a>
+        </section>
+    </footer>
 </body>
 
 </html>

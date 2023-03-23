@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-gray {
+  background: #fafafa;
+}
+
+.container {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+.advertise {
+  padding: 0.5rem 0;
+  background: #3f6eff;
+}
+
+.advertise p,
+.advertise a {
+  color: #fff;
+}
+
+.navbar {
+  background-color: #212121;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.navbar a {
+  display: inline-block;
+}
+
+.nav-header ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-header ul a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+.nav-header ul a:hover {
+  background-color: #3f6eff;
+}
+
+main {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  justify-items: flex-end;
+  gap: 2rem;
+}
+
+.light-b {
+  color: #212121;
+}
+
+.yellow {
+  color: #fcff55;
+}
+
+.light-gray {
+  color: #595959;
+}
+
+.description {
+  max-width: 80ch;
+  text-align: right;
+}
+
+.description h1 {
+  font-size: 3rem;
+}
+
+.description h3 {
+  font-size: 1.3rem;
+}
+.description h2 {
+  color: #3f6eff;
+}
+
+.projetos,
+.formacao {
+  padding-bottom: 2rem;
+}
+
+.formacao section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.projetos-title,
+.formacao-title,
+.contato-title {
+  text-transform: uppercase;
+  color: #212121;
+  padding-top: 2rem;
+  font-size: 1.8rem;
+}
+
+.section-title {
+  text-transform: uppercase;
+  color: #595959;
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.card {
+  padding: 1rem;
+  background: #3f6eff;
+  color: white;
+  border-radius: 0.2rem;
+}
+
+.card h5 {
+  font-size: 1rem;
+}
+
+.card h6 {
+  font-size: 0.9rem;
+}
+
+.card h6:first-of-type {
+  margin-top: 0.5rem;
+}
+
+.idioma .card {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.idioma .card h6 {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.proj-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.projetos-title {
+  padding-bottom: 2rem;
+}
+
+.proj-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+  border-radius: 0.2rem;
+  border: 2px solid #c1c1c1;
+  padding: 1rem;
+}
+
+.proj-card p {
+  max-width: 70ch;
+}
+
+.proj-link {
+  margin-top: 0.5rem;
+  padding: 0.3rem 0.8rem;
+  background-color: #3f6eff;
+  border-radius: 0.2rem;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.proj-link:hover {
+  background-color: #4c79ff;
+}
+
+.stacks {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.stacks h4 {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  background-color: #8d8d8d;
+  border-radius: 0.2rem;
+  padding: 0.2rem 0.5rem;
+  color: white;
+}
+
+.contato-title {
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.contato {
+  color: white;
+  background-color: #212121;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.contato nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+.contato nav ul a {
+  text-decoration: none;
+  color: white;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.2rem;
+}
+
+.contato nav ul a:hover {
+  background-color: #3f6eff;
+}
+
+.contato nav ul li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.contato nav ul img {
+  height: 1.5rem;
+}
+
+.contato nav ul h3 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.credits {
+  padding: 1rem;
+  background-color: #141414;
+  color: white;
+}
+
+.credits a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.credits a img {
+  width: 2rem;
+  height: 2rem;
+}
+
+@media (max-width: 520px) {
+  .navbar {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .formacao-title {
+    font-size: 1.6rem;
+  }
+
+  .section-title {
+    font-size: 1rem;
+  }
+
+  .nav-header ul li {
+    font-size: 0.9rem;
+  }
+
+  .nav-header ul a {
+    background-color: #383838;
+    padding: 0.5rem 0.8rem;
+  }
+
+  .advertise {
+    font-size: 0.8rem;
+  }
+
+  .description h1 {
+    font-size: 2rem;
+  }
+
+  .description h2 {
+    font-size: 1.2rem;
+  }
+
+  .description h3 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .nav-header ul li {
+    font-size: 0.9rem;
+  }
+
+  .contato nav ul a {
+    background-color: #141414;
+  }
+
+  .contato nav ul {
+    flex-direction: column;
+    align-items: start;
+    gap: 0.5rem;
+  }
+
+  .container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .avatar {
+    display: none;
+  }
+
+  .description {
+    text-align: left;
+    max-width: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .proj-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 750px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
