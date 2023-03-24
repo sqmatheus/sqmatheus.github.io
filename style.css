@@ -199,7 +199,7 @@ main {
 
 .proj-link {
   margin-top: 0.5rem;
-  padding: 0.3rem 0.8rem;
+  padding: 0.4rem 0.9rem;
   background-color: #3f6eff;
   border-radius: 0.2rem;
   color: white;
@@ -275,6 +275,9 @@ main {
 }
 
 .credits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 1rem;
   background-color: #141414;
   color: white;
@@ -290,8 +293,12 @@ main {
 }
 
 .credits a img {
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.credits a h3 {
+  font-size: 1rem;
 }
 
 @media (max-width: 520px) {
