@@ -112,15 +112,19 @@ main {
   color: #3f6eff;
 }
 
+.experiencia,
 .projetos,
 .formacao {
   padding-bottom: 2rem;
 }
 
+.experiencia section,
 .formacao section {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
+.experiencia-title,
 .projetos-title,
 .formacao-title,
 .contato-title {
@@ -145,8 +149,7 @@ main {
 
 .card {
   padding: 1rem;
-  background: #3f6eff;
-  color: white;
+  border: 2px solid #c1c1c1;
   border-radius: 0.2rem;
 }
 
@@ -301,6 +304,11 @@ main {
   font-size: 1rem;
 }
 
+.flag {
+  height: 2.25rem;
+  border-radius: 5px;
+}
+
 @media (max-width: 520px) {
   .navbar {
     align-items: flex-start;
@@ -308,6 +316,7 @@ main {
     gap: 1rem;
   }
 
+  .experiencia-title,
   .formacao-title {
     font-size: 1.6rem;
   }
